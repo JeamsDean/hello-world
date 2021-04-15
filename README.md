@@ -20,7 +20,7 @@ int main()/*定义主函数*/
 		scanf_s("%d", &a);
 		d = 1 / a;
 		printf("%d的倒数为：%d", a, d);
-		break;
+		break;/*结束*/
 	case 3:
 		printf("Please input one number:");
 		scanf_s("%d", &a);
@@ -29,7 +29,7 @@ int main()/*定义主函数*/
 	case 4:/*取余运算*/
 			scanf_s("%d,%d", &a, &b);
 			x = a, n = b;
-           printf("Please input two numbers:x=%d,n=%d",a,b);
+           printf("Please input two numbers:x=%d,n=%d",a,b);/*让用户输入两个数*/
              for(j=1;j<=n;j++)
 {
 	         y = x * y;
